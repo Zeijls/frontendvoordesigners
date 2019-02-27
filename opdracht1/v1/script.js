@@ -1,8 +1,8 @@
-var knoproze = document.querySelector('fieldset > input[name="roze"]');
-var knopzwart = document.querySelector('fieldset > input[name="zwart"]');
-var knoprood = document.querySelector('fieldset > input[name="rood"]');
-var knopblauw = document.querySelector('fieldset > input[name="blauw"]');
-var knopgroen = document.querySelector('fieldset > input[name="groen"]');
+var knoproze = document.querySelector('label > input[name="roze"]');
+var knopzwart = document.querySelector('label > input[name="zwart"]');
+var knoprood = document.querySelector('label > input[name="rood"]');
+var knopblauw = document.querySelector('label > input[name="blauw"]');
+var knopgroen = document.querySelector('label > input[name="groen"]');
 
 var main = document.querySelector('main');
 // var zwartefoto = document.querySelector('[name="zwartefoto"]');
