@@ -3,4 +3,4 @@ Hier beschrijf je de opdracht, wat je hebt gemaakt en hoe je je ontwerp door ver
 
 Bijvoorbeel bij de demo van versie in kun je zo een link maken, zodat iedereen de demo zelf kan uitproberen:
 
-[Foto's filteren](https://simonevanzeijl.github.io/frontendvoordesigners/opdracht1/v1/)
+[Foto's filteren](https://zeijls.github.io/frontendvoordesigners/opdracht1/v1/)
