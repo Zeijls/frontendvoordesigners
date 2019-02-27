@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  font-family: fantasy;
+}
+
+main section form fieldset {
+  border: none;
+}
+
+section:nth-of-type(2) {
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0.5em;
+}
+
+body header h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+img {
+  width: 100%;
+  max-height: 20em;
+  margin-bottom: 0.5em;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+img:hover{
+  opacity: 0.5;
+  transition: 0.6s;
+}
+
+.show {
+  display: block;
+}
+
+/* Roze */
+.roze {
+  display: block;
+}
+
+.zwart {
+  display: block;
+}
+
+/* Rood */
+.rood {
+  display: block;
+}
+
+/* Blauw */
+.blauw {
+  display: block;
+}
+
+/* Groen */
+.groen {
+  display: block;
+}
+
+.roze img.roze,
+.zwart img.zwart,
+.rood img.rood,
+.blauw img.blauw,
+.groen img.groen {
+  display: none;
+}
