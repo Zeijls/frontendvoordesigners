@@ -8,4 +8,4 @@ Om te beginnen ging ik uitzoeken hoe andere mensen het aanpakte om een carrousel
 Ik begon met de html en minimale css. Uiteindelijk de javascript toegevoegd. Toen uiteindelijk alle functies klopte en werkte ben ik de css gaan toepassen.
 
 
-[Fotocarrousel](https://zeijls.github.io/frontendvoordesigners/opdracht1/v2/)
+[Fotocarrousel](https://zeijls.github.io/frontendvoordesigners/opdracht2/V2/)
