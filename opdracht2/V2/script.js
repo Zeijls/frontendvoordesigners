@@ -42,7 +42,7 @@ carousel = (function(){
           slide(-1);
        }
 
-//Rechts
+  //Rechts
        else if (event.keyCode == 39) {
            slide(1);
        }
