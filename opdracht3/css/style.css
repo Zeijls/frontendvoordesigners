@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+	background-color: black;
+	color: white;
+}
+
+body{
+  margin:1em;
+  font: 2em/1 sans-serif;
+}
+span{
+  color: green;
+  margin: 0;
+  padding: 1em;
+  width: calc(6 * 450px);
+  list-style-position: inside;
+  background: DARKSEAGREEN;
+  transition: all 1s ease;
+  display: none;
+}
+.show{
+  display: inline;
+}
+.hide{
+  display: none;
+}
+
+/* ************* */
+
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+section ul{
+  display: none;
+  padding: 0;
+  background: pink;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-family: serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: goldenrod;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: cursive;
+	text-align: center;
+	color: goldenrod;
+}
+
+h3 {
+	font-size: 1em;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 100;
+	text-align: center;
+}
+
+article {
+	width: 25%;
+	margin: 3%;
+	min-height: 15em;
+	max-height: 25em;
+	margin-bottom: 10%;
+/*	background-color: beige;*/
+	text-align: center;
+	
+	
+}
+
+article img{
+	width: auto;
+	height: 50%;
+	filter: sepia(1);
+
+}
+
+article img:hover {
+	filter: sepia(0);
+	transition: 2s;
+}
+
+article p {
+	font-size: .5em;
+	text-align: left;
+	
+}
+
+article button {
+	background-color: goldenrod;
+	height: 3.5em;
+	padding: 0 3em;
+	font-size: .5em;
+	color: white;
+	margin-top: 1em;
+}
+
+article li {
+	margin-top: 1em;
+	font-size: .4em;
+	list-style: none;
+}
