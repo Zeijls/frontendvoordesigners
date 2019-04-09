@@ -205,8 +205,17 @@ article p {
 	font-size: .5em;
 	text-align: left;
 	margin-left: 3em;
-
 }
+
+article > p.show:nth-of-type(4) {
+    display: none;
+}
+
+article > p.show:nth-of-type(4) {
+    display: inline-block;
+}
+
+
 
 article button {
 	background-color: goldenrod;

@@ -18,8 +18,6 @@ function showData(jsonObj) {
 
 		var filmcover = document.createElement('img');
 		filmcover.src = films[i].cover;
-		//myImg.textContent = films[i].cover;
-		//console.log(filmcover.src);
 
 		var filmplot = document.createElement('p');
 		filmplot.textContent = films[i].simple_plot;
@@ -31,7 +29,7 @@ function showData(jsonObj) {
 		var genres = films[i].genres;
 		for (var n = 0; n < genres.length; n++) {
 			console.log("genre: ", genres[n]);
-		} //end for genres
+		}
 
 		var genres = document.createElement('p');
 		genres.textContent = films[i].genres;
@@ -47,25 +45,23 @@ function showData(jsonObj) {
 			var listItem = document.createElement('li');
 			listItem.textContent = reviews[j].score + ' - ' + reviews[j].created_at;
 			reviewslezen.appendChild(listItem);
-		} //end: for reviews
+		}
 
 
-		//functies om elementen toe te voegen
-		reviewsbutton.info = reviewslezen; //zo kun je een variabele aanmaken in ene object om iets te 'bewaren', bijvoorbeel een verwijzing naar een ander element
-		reviewsbutton.onclick = function () {
-			console.log("click this =" + this.info, this); //met this, verwijs je naar het object zelf waar de functie wordt uitgevoerd, hier gebruik ik de variabale die in in het object heb aangemaakt
-			//console.log("parentNode",this.parentNode);
-			this.info.classList.toggle('show')
-		} //end: reviewsheader onClick
-		reviewslezen.addEventListener("click", function () {
-			console.log("click this =", this);
-			console.log("Wat is de parentNode?", this.parentNode); //met 'parentNode' kun je een element met een relatief pad bereiken
-			console.log("Wat zijn de childNodes?", this.childNodes); //met 'childNodes' kun je de kinderen van een element met een relatief pad bereiken
-			var button = this.parentNode.querySelector('button'); //relatief pad gebruiken voor een actie die moet plaatsvinden
-			console.log("Is dit de button?", button);
-		}); //end: reviewslezen click
-
-
+		//		//functies om elementen toe te voegen
+		//		reviewsbutton.info = reviewslezen; //zo kun je een variabele aanmaken in ene object om iets te 'bewaren', bijvoorbeel een verwijzing naar een ander element
+		//		reviewsbutton.onclick = function () {
+		//			console.log("click this =" + this.info, this); //met this, verwijs je naar het object zelf waar de functie wordt uitgevoerd, hier gebruik ik de variabale die in in het object heb aangemaakt
+		//			//console.log("parentNode",this.parentNode);
+		//			this.info.classList.toggle('show')
+		//		} //end: reviewsheader onClick
+		//		reviewslezen.addEventListener("click", function () {
+		//			console.log("click this =", this);
+		//			console.log("Wat is de parentNode?", this.parentNode); //met 'parentNode' kun je een element met een relatief pad bereiken
+		//			console.log("Wat zijn de childNodes?", this.childNodes); //met 'childNodes' kun je de kinderen van een element met een relatief pad bereiken
+		//			var button = this.parentNode.querySelector('button'); //relatief pad gebruiken voor een actie die moet plaatsvinden
+		//			console.log("Is dit de button?", button);
+		//		}); //end: reviewslezen click
 
 
 		//ALLE DATA KOPPELEN
@@ -80,11 +76,8 @@ function showData(jsonObj) {
 		//HTML INJECTION IN BESTAANDE SECTION
 		section.appendChild(filmpiekijken);
 
-
-
-
-	} //end: for films
-} //end: function showData
+	}
+}
 
 //https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
 //https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest
