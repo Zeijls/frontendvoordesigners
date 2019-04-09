@@ -1,120 +1,146 @@
-.action main section > article:nth-of-type(1),
-.action main section > article:nth-of-type(2),
-.action main section > article:nth-of-type(3),
-.action main section > article:nth-of-type(4),
-.action main section > article:nth-of-type(6),
-.action main section > article:nth-of-type(7),
-.action main section > article:nth-of-type(8){
+* {
+	box-sizing: border-box;
+	background-color: black;
+	color: white;
+}
+
+body {
+	margin: 1em;
+	font: 2em/1 sans-serif;
+}
+
+button {
+    cursor: pointer;
+    padding: .5em;
+    border-radius: .1em;
+    border-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    color: #fff;
+    background-color: goldenrod;
+    font-weight: bold;
+    font-size: 1em;
+    transition: 0.6s ease;
+}
+
+.hide {
     display: none;
 }
 
+/*Menu Items*/
+
+.action main section > article:nth-of-type(2),
+.action main section > article:nth-of-type(3),
+.action main section > article:nth-of-type(4),
+.action main section > article:nth-of-type(5),
+.action main section > article:nth-of-type(6){
+	display: none;
+}
+
 .adventure main section > article:nth-of-type(1),
-.adventure main section > article:nth-of-type(2),
 .adventure main section > article:nth-of-type(3),
 .adventure main section > article:nth-of-type(4),
-.adventure main section > article:nth-of-type(6),
-.adventure main section > article:nth-of-type(7),
-.adventure main section > article:nth-of-type(8) {
-    display: none;
+.adventure main section > article:nth-of-type(5),
+.adventure main section > article:nth-of-type(6){
+	display: none;
 }
 
 
 .crime main section > article:nth-of-type(1),
+.crime main section > article:nth-of-type(2),
+.crime main section > article:nth-of-type(4),
 .crime main section > article:nth-of-type(5),
-.crime main section > article:nth-of-type(6),
-.crime main section > article:nth-of-type(7){
-    display: none;
+.crime main section > article:nth-of-type(6) {
+	display: none;
 }
 
 
 .drama main section > article:nth-of-type(1),
+.drama main section > article:nth-of-type(2),
+.drama main section > article:nth-of-type(3),
 .drama main section > article:nth-of-type(5),
-.drama main section > article:nth-of-type(7){
-    display: none;
+.drama main section > article:nth-of-type(6){
+	display: none;
 }
 
 
+.horror main section > article:nth-of-type(1),
 .horror main section > article:nth-of-type(2),
 .horror main section > article:nth-of-type(3),
 .horror main section > article:nth-of-type(4),
-.horror main section > article:nth-of-type(5),
-.horror main section > article:nth-of-type(6),
-.horror main section > article:nth-of-type(8){
-    display: none;
+.horror main section > article:nth-of-type(6) {
+	display: none;
 }
 
 
 .thriller main section > article:nth-of-type(1),
 .thriller main section > article:nth-of-type(2),
 .thriller main section > article:nth-of-type(3),
-.thriller main section > article:nth-of-type(5),
-.thriller main section > article:nth-of-type(6),
-.thriller main section > article:nth-of-type(7),
-.thriller main section > article:nth-of-type(8){
-    display: none;
+.thriller main section > article:nth-of-type(4),
+.thriller main section > article:nth-of-type(5) {
+	display: none;
 }
 
 
 
 span {
-  color: green;
-  margin: 0;
-  padding: 1em;
-  width: calc(6 * 450px);
-  list-style-position: inside;
-  transition: all 1s ease;
-  display: none;
+	color: green;
+	margin: 0;
+	padding: 1em;
+	width: calc(6 * 450px);
+	list-style-position: inside;
+	transition: all 1s ease;
+	display: none;
 }
 
 
 .show {
-  display: flex;
-  transition: 2s;
+	display: flex;
+	transition: 2s;
 }
 
 .menu {
-  justify-content: space-around;
-align-items: center;
-  padding: 0;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0;
 }
 
 header ul {
-    display: none;
+	display: none;
 }
 
 
 .menu-item a {
-  color: #fff;
-  font-size: 2em;
-    font-weight: bolder;
-  text-decoration: none;
-  transition: all 0.8s ease;
+	color: #fff;
+	font-size: .5em;
+	font-weight: bolder;
+	text-decoration: none;
+	transition: all 0.8s ease;
+	list-style-type: none;
 }
 
 
 .genres a {
-    color: violet;
-  font-size: 2em;
-  font-weight: bolder;
-  text-decoration: none;
-  transition: all 0.8s ease;
+	color: goldenrod;
+	font-size: .8em;
+	font-weight: bolder;
+	text-decoration: none;
+	transition: all 0.8s ease;
+	list-style-type: none;
 }
 
 .menu-item a:hover {
-  color: hotpink;
+	color: goldenrod;
 }
 
-/*Eigen css*/
-
-* {
-  box-sizing: border-box;
-	background-color: black;
+li, ul {
+    margin-top: 1em;
+    font-size: 1em;
+    list-style: none;
 	color: white;
-}
-
-body{
-  margin:1em;
-  font: 2em/1 sans-serif;
+    margin-top: 1em;
 }
 
 section {
@@ -159,13 +185,11 @@ article {
 	min-height: 15em;
 	max-height: 25em;
 	margin-bottom: 10%;
-/*	background-color: beige;*/
 	text-align: center;
-	
-	
+	margin-bottom: 6em;
 }
 
-article img{
+article img {
 	width: auto;
 	height: 50%;
 	filter: sepia(1);
@@ -181,7 +205,7 @@ article p {
 	font-size: .5em;
 	text-align: left;
 	margin-left: 3em;
-	
+
 }
 
 article button {
@@ -199,4 +223,5 @@ article li {
 	font-size: .4em;
 	list-style: none;
 }
+
 s

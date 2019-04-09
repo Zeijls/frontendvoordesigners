@@ -7,40 +7,37 @@ var dramaKnop = document.querySelector('.drama');
 var horrorKnop = document.querySelector('.horror');
 var thrillerKnop = document.querySelector('.thriller');
 
-alleGenresKnop.addEventListener('click', function(){
-    body.classList = '';
+alleGenresKnop.addEventListener('click', function () {
+	body.classList = '';
 });
 
 
-actionKnop.addEventListener('click', function(){
-    body.classList = '';
-  body.classList.toggle('action');
+actionKnop.addEventListener('click', function () {
+	body.classList = '';
+	body.classList.toggle('action');
 });
 
-adventureKnop.addEventListener('click', function(){
-    body.classList = '';
-  body.classList.toggle('adventure');
+adventureKnop.addEventListener('click', function () {
+	body.classList = '';
+	body.classList.toggle('adventure');
 });
 
-crimeKnop.addEventListener('click', function(){
-    body.classList = '';
-  body.classList.toggle('crime');
+crimeKnop.addEventListener('click', function () {
+	body.classList = '';
+	body.classList.toggle('crime');
 });
 
-dramaKnop.addEventListener('click', function(){
-    body.classList = '';
-  body.classList.toggle('drama');
+dramaKnop.addEventListener('click', function () {
+	body.classList = '';
+	body.classList.toggle('drama');
 });
 
-horrorKnop.addEventListener('click', function(){
-    body.classList = '';
-  body.classList.toggle('horror');
+horrorKnop.addEventListener('click', function () {
+	body.classList = '';
+	body.classList.toggle('horror');
 });
 
-thrillerKnop.addEventListener('click', function(){
-    body.classList = '';
-  body.classList.toggle('thriller');
+thrillerKnop.addEventListener('click', function () {
+	body.classList = '';
+	body.classList.toggle('thriller');
 });
-
-
-
