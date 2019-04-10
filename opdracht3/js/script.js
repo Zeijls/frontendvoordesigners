@@ -42,7 +42,7 @@ function showData(jsonObj) {
 		var lees = document.createElement('button');
 		lees.textContent = "Boek Kopen";
 
-		meerLezen.textContent = films[i].lezen;
+		meerLezen.textContent = films[i].kopen;
 		lees.info = meerLezen;
 		lees.onclick = function () {
 			console.log('Click this =' + this.info, this);

@@ -15,5 +15,4 @@ Hiervoor heb ik een website gemaakt met alle boeken van Harry Potter. Het is mog
 
 Hieronder volgt de link naar de eindopdracht;
 [Boeken van Harry Potter](https://zeijls.github.io/frontendvoordesigners/opdracht3/V3)
-
-<!--De JSON data is ook los, per film of genre of actors te gebruiken. Check die [hier](https://github.com/KoopReynders/frontendvoordesigners/tree/master/opdracht3/json).-->
+ 

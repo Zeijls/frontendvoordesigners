@@ -208,12 +208,12 @@ article p {
 	margin-left: 3em;
 }
 
-article > p.show:nth-of-type(5) {
-    display: none;
+article > p.show:nth-of-type(4) {
+    display: inline-block;
 }
 
-article > p:nth-of-type(5) {
-    display: inline-block;
+article > p:nth-of-type(4) {
+    display: none;
 }
 
 
