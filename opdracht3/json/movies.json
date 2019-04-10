@@ -93,6 +93,7 @@
 		"cover": "./img/harry2.jpeg",
 		"trailer": "https://video-http.media-imdb.com/MV5BODlhNjU1YjQtOTQyOS00MmY2LWFlZTgtODg1ZjY1N2NjNDMyXkExMV5BbXA0XkFpbWRiLWV0cy10cmFuc2NvZGU@.mp4?Expires=1545339652&Signature=Wt5L9C0~HZ~AQLF5H~D7BAxCOPBQaNxIqxIICEF5apExwauB07M5vax10pne~ZneUA6y6WAWb3Q5djYRKkQ6xTJDSWvJCNeDx8D4fwP3GoUxaADkMPVbsBT2WynXsm8opgvAeL4aLQ14PQ92d5rLSQKPuInpvhbn6LEA5o8dvBE_&Key-Pair-Id=APKAILW5I44IHKUN2DYA",
 		"genres": ["Adventure"],
+		"kopen": "https://www.bol.com/nl/p/harry-potter-and-the-philosopher-s-stone/9200000022408702/?suggestionType=typedsearch&bltgh=uDt2UfNxmZdY8E-00VVCwA.1.3.ProductTitle",
 		"reviews": [{
 			"id": 5,
 			"score": 9,
@@ -259,6 +260,7 @@
 		"cover": "./img/harry3.jpg",
 		"trailer": "https://video-http.media-imdb.com/MV5BMTQyOTIwMDIxNV5BMTFeQW1wNF5BbWU3MDE1MTA4NDc@.mp4?Expires=1545339714&Signature=VjmuXI7VecR1jBnc~ll08fdjJxjK7qZugyarWuqgb~fPKXdN2byrMdkU-V6FkBT4~iKvYe5QrMaqkQzA0tonto6p5QtH~tDy1LpJs~mV8OnMaaDyV7qkGkJp0w7OlvhB9Vi4PhzDXqw7-IipRpwNJH00BUYb50lxFdmdSoZCb~0_&Key-Pair-Id=APKAILW5I44IHKUN2DYA",
 		"genres": ["Crime"],
+		"kopen": "https://www.bol.com/nl/p/harry-potter-and-the-philosopher-s-stone/9200000022408702/?suggestionType=typedsearch&bltgh=uDt2UfNxmZdY8E-00VVCwA.1.3.ProductTitle",
 		"reviews": [{
 			"id": 9,
 			"score": 9,
@@ -417,6 +419,7 @@
 		"cover": "./img/harry4.jpg",
 		"trailer": "https://video-http.media-imdb.com/MV5BMDFmMDcwMWQtNWM5YS00ZDllLWE1YzQtZmE4OTE1MGQ1ZWUwXkExMV5BbXA0XkFpbWRiLWV0cy10cmFuc2NvZGU@.mp4?Expires=1545339807&Signature=mKdcRcdRYTrjsTtQCfkWh8mxf3fFOvrvOMKro1L4HaKmZqqQ1lo2~DCB~RBnuWJccyJOHGSHkMeTOnFN~C~DIlHjPBSOzR~sEHzywDVnFy3y10O3iAKIU8q7kAgDWXMyuT18AXcLDkyJtv14v6QQUmRwnu3hRfFGTR45nqptqp0_&Key-Pair-Id=APKAILW5I44IHKUN2DYA",
 		"genres": ["Drama"],
+		"kopen": "https://www.bol.com/nl/p/harry-potter-and-the-philosopher-s-stone/9200000022408702/?suggestionType=typedsearch&bltgh=uDt2UfNxmZdY8E-00VVCwA.1.3.ProductTitle",
 		"reviews": [{
 			"id": 13,
 			"score": 9,
@@ -583,6 +586,7 @@
 		"cover": "./img/harry5.jpg",
 		"trailer": "https://totaleclips-a.akamaihd.net/434/e43433_302.mp4?eclipId=e43433&bitrateId=472&vendorId=102&affiliateId=-1",
 		"genres": ["Horror"],
+		"kopen": "https://www.bol.com/nl/p/harry-potter-and-the-philosopher-s-stone/9200000022408702/?suggestionType=typedsearch&bltgh=uDt2UfNxmZdY8E-00VVCwA.1.3.ProductTitle",
 		"reviews": [{
 			"id": 17,
 			"score": 8,
@@ -777,6 +781,7 @@
 		"cover": "./img/harry6.jpg",
 		"trailer": "https://totaleclips-a.akamaihd.net/616/e61676_302.mp4?eclipId=e61676&bitrateId=472&vendorId=102&affiliateId=-1",
 		"genres": ["Thriller"],
+		"kopen": "https://www.bol.com/nl/p/harry-potter-and-the-philosopher-s-stone/9200000022408702/?suggestionType=typedsearch&bltgh=uDt2UfNxmZdY8E-00VVCwA.1.3.ProductTitle",
 		"reviews": [],
 		"directors": [{
 			"id": 8,

@@ -34,6 +34,21 @@ function showData(jsonObj) {
 		var genres = document.createElement('p');
 		genres.textContent = films[i].genres;
 
+		//BOEK KOPEN
+		var kopen = document.createElement('p');
+		kopen.textContent = films[i].kopen;
+
+		var meerLezen = document.createElement('p');
+		var lees = document.createElement('button');
+		lees.textContent = "Boek Kopen";
+
+		meerLezen.textContent = films[i].lezen;
+		lees.info = meerLezen;
+		lees.onclick = function () {
+			console.log('Click this =' + this.info, this);
+			this.info.classList.toggle('show')
+		}
+
 		//REVIEWS
 		var reviewslezen = document.createElement('ul');
 		var reviewsbutton = document.createElement('button');
@@ -70,8 +85,11 @@ function showData(jsonObj) {
 		filmpiekijken.appendChild(filmplot);
 		filmpiekijken.appendChild(release_date);
 		filmpiekijken.appendChild(genres);
-		filmpiekijken.appendChild(reviewsbutton);
-		filmpiekijken.appendChild(reviewslezen);
+		//		filmpiekijken.appendChild(reviewsbutton);
+		//		filmpiekijken.appendChild(reviewslezen);
+
+		filmpiekijken.appendChild(lees);
+		filmpiekijken.appendChild(meerLezen);
 
 		//HTML INJECTION IN BESTAANDE SECTION
 		section.appendChild(filmpiekijken);
@@ -121,32 +139,32 @@ button.onclick = function () {
 };
 
 
-function loadRestApiFetch() { //Rest Api call met Fetchs
-	console.log("function loadRestApiFetch");
-
-	loaderElement.classList.add('show');
-	fetch(uri)
-		.then(function (response) {
-			console.log(response.headers.get('Content-Type'));
-			console.log(response.headers.get('Date'));
-
-			console.log(response.status);
-			console.log(response.statusText);
-			console.log(response.type);
-			console.log(response.url);
-
-			return response.json();
-		})
-		.then(function (myJson) {
-			console.log('Request successful', myJson);
-			//eerst de loader weg halen !
-			loaderElement.classList.remove('show');
-			//dan de html renderen
-			//document.querySelector("p").innerHTML="joehoe";
-			//console.log(myJson);
-		})
-		.catch(function (error) {
-			console.log('Request failed', error)
-		});
-}
-//loadRestApiFetch();
+//function loadRestApiFetch() { //Rest Api call met Fetchs
+//	console.log("function loadRestApiFetch");
+//
+//	loaderElement.classList.add('show');
+//	fetch(uri)
+//		.then(function (response) {
+//			console.log(response.headers.get('Content-Type'));
+//			console.log(response.headers.get('Date'));
+//
+//			console.log(response.status);
+//			console.log(response.statusText);
+//			console.log(response.type);
+//			console.log(response.url);
+//
+//			return response.json();
+//		})
+//		.then(function (myJson) {
+//			console.log('Request successful', myJson);
+//			//eerst de loader weg halen !
+//			loaderElement.classList.remove('show');
+//			//dan de html renderen
+//			//document.querySelector("p").innerHTML="joehoe";
+//			//console.log(myJson);
+//		})
+//		.catch(function (error) {
+//			console.log('Request failed', error)
+//		});
+//}
+////loadRestApiFetch();
