@@ -25,6 +25,13 @@ function showData(jsonObj) {
 		var release_date = document.createElement('p');
 		release_date.textContent = films[i].release_date;
 
+		var a = document.createElement('a');
+		var linkText = document.createTextNode("Boek kopen");
+		a.appendChild(linkText);
+		a.title = "BoekKopen";
+		a.href = films[i].kopen;
+		document.body.appendChild(a);
+
 		//GENRES
 		var genres = films[i].genres;
 		for (var n = 0; n < genres.length; n++) {
@@ -34,20 +41,20 @@ function showData(jsonObj) {
 		var genres = document.createElement('p');
 		genres.textContent = films[i].genres;
 
-		//BOEK KOPEN
-		var kopen = document.createElement('p');
-		kopen.textContent = films[i].kopen;
-
-		var meerLezen = document.createElement('p');
-		var lees = document.createElement('button');
-		lees.textContent = "Boek Kopen";
-
-		meerLezen.textContent = films[i].kopen;
-		lees.info = meerLezen;
-		lees.onclick = function () {
-			console.log('Click this =' + this.info, this);
-			this.info.classList.toggle('show')
-		}
+		//		//BOEK KOPEN
+		//		var kopen = document.createElement('p');
+		//		kopen.textContent = films[i].kopen;
+		//
+		//		var meerLezen = document.createElement('p');
+		//		var lees = document.createElement('button');
+		//		lees.textContent = "Boek Kopen";
+		//
+		//		meerLezen.textContent = films[i].kopen;
+		//		lees.info = meerLezen;
+		//		lees.onclick = function () {
+		//			console.log('Click this =' + this.info, this);
+		//			this.info.classList.toggle('show')
+		//		}
 
 		//REVIEWS
 		var reviewslezen = document.createElement('ul');
@@ -85,11 +92,12 @@ function showData(jsonObj) {
 		filmpiekijken.appendChild(filmplot);
 		filmpiekijken.appendChild(release_date);
 		filmpiekijken.appendChild(genres);
+		filmpiekijken.appendChild(a);
 		//		filmpiekijken.appendChild(reviewsbutton);
 		//		filmpiekijken.appendChild(reviewslezen);
 
-		filmpiekijken.appendChild(lees);
-		filmpiekijken.appendChild(meerLezen);
+//		filmpiekijken.appendChild(lees);
+//		filmpiekijken.appendChild(meerLezen);
 
 		//HTML INJECTION IN BESTAANDE SECTION
 		section.appendChild(filmpiekijken);

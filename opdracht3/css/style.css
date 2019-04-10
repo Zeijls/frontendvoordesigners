@@ -25,6 +25,12 @@ button {
     transition: 0.6s ease;
 }
 
+button:hover{
+	opacity: .8;
+	transform: scale(0.95);
+	transition: .3s;
+}
+
 .hide {
     display: none;
 }
@@ -111,6 +117,13 @@ header ul {
 	display: none;
 }
 
+.menu a {
+	font-size: .9em;
+	font-weight: bolder;
+	text-decoration: none;
+	transition: all 0.8s ease;
+	list-style-type: none;
+}
 
 .menu-item a {
 	color: #fff;
@@ -121,19 +134,21 @@ header ul {
 	list-style-type: none;
 }
 
-
-.genres a {
-	color: goldenrod;
-	font-size: .8em;
-	font-weight: bolder;
-	text-decoration: none;
-	transition: all 0.8s ease;
-	list-style-type: none;
-}
-
 .menu-item a:hover {
 	color: goldenrod;
 }
+
+.genres header ul li:first-of-type a,
+.action header ul li:nth-of-type(2) a,
+.adventure header ul li:nth-of-type(3) a,
+.crime header ul li:nth-of-type(4) a,
+.drama header ul li:nth-of-type(5) a,
+.horror header ul li:nth-of-type(6) a,
+.thriller header ul li:nth-of-type(7) a{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
 
 li, ul {
     margin-top: 1em;
@@ -184,10 +199,9 @@ article {
 	width: 25%;
 	margin: 3%;
 	min-height: 15em;
-	max-height: 25em;
-	margin-bottom: 10%;
+	max-height: 20em;
 	text-align: center;
-	margin-bottom: 6em;
+	padding-bottom: 0;
 }
 
 article img {
@@ -200,6 +214,7 @@ article img {
 article img:hover {
 	filter: sepia(0);
 	transition: 2s;
+	cursor: pointer;
 }
 
 article p {
@@ -218,15 +233,20 @@ article > p:nth-of-type(4) {
 
 
 
-article button {
+article a {
 	background-color: goldenrod;
+	color: white;
+	width: 2em;
 	height: 3em;
-	padding: 0 2em;
+	padding: 1em 2em;
 	font-size: .5em;
+	font-weight: bolder;
 	color: white;
 	margin-top: 1em;
 	border-radius: .1em;
+	text-decoration: none;
 }
+
 
 article li {
 	margin-top: 1em;
@@ -234,4 +254,8 @@ article li {
 	list-style: none;
 }
 
-s
+artcile a {
+	color: white;
+}
+
+

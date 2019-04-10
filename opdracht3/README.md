@@ -1,4 +1,4 @@
-# frontend voor designers - opdracht 3
+# Frontend voor designers - opdracht 3
 
 Voor de Eindopdracht van Frontend voor Designers hebben we de opdracht gekregen een json file in te laden. 
 
